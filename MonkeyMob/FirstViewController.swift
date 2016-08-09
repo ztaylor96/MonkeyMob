@@ -9,6 +9,7 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var FriendsFeedView: UIStackView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
